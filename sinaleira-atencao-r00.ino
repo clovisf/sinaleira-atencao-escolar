@@ -1,9 +1,9 @@
-#define botaovermelho 7
-#define botaoamarelo 6
-#define botaoverde 5
-#define ledvermelho 8
-#define ledamarelo 9
-#define ledverde 10
+#define botaovermelho 8
+#define botaoamarelo 9
+#define botaoverde 10
+#define ledvermelho 7 // ok
+#define ledamarelo 6
+#define ledverde 5
 #define led13 13
 
 unsigned long timet;
@@ -102,8 +102,8 @@ void loop() {
     //-----------------------
     
   
-   digitalWrite(led13, !digitalRead(led13));
-    Serial.println(statusbotaovermelho);
+   //digitalWrite(led13, !digitalRead(led13));
+   //Serial.println(statusbotaovermelho);
 
 
     //-----------------------
